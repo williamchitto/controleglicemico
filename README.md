@@ -3,4 +3,4 @@
 
 - Foi baseado no documento adicionado  em /documentacao/Diagnostico-Tratamento-hiperglicemia-hipoglicemia-nos-internados.pdf
 
-- Link do Projeto rodando - https://williamchitto.github.io/controleglicemico/
+- Link do Projeto - https://williamchitto.github.io/controleglicemico/
