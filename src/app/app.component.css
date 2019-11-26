@@ -4,6 +4,11 @@
   width: 100%;
   text-align: center;
 }
+.btn-toolbar{
+  text-align: center !important;
+  display: Block !important;
+  padding-top: 15px;
+}
 
 .example-full-width {
   width: 90%;

@@ -1,6 +1,6 @@
 
-    <mat-toolbar  color="primary">
-        <span>PROTOCOLO CONTROLE GLICÊMICO</span>
+    <mat-toolbar  color="primary" class="btn-toolbar" >
+        <span >PROTOCOLO CONTROLE GLICÊMICO</span>
       </mat-toolbar>
       <div class="main-div">
       <mat-card >
@@ -18,7 +18,7 @@
         <span matSuffix> &nbsp;mg/dl</span>
       </mat-form-field>
       <div class="example-button-row">
-      <button type='button'  mat-raised-button color="primary" (click)="calcular(infusaoAtual.value, glicoseAtual.value, glicoseAnterior.value)" >Calcular</button>
+      <button [disabled]="angForm.invalid" type='button'  mat-raised-button color="primary" (click)="calcular(infusaoAtual.value, glicoseAtual.value, glicoseAnterior.value)" >Calcular</button>
     </div>
     </form>
   </mat-card>

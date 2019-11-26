@@ -16,8 +16,8 @@ export class AppComponent implements OnInit {
   createForm() {
     this.angForm = this.fb.group({
       glicoseAtual: ['', Validators.required ],
-      glicoseAnterior: [''],
-      infusaoAtual: ['']
+      glicoseAnterior: ['', Validators.required ],
+      infusaoAtual: ['', Validators.required ]
     });
   }
 
