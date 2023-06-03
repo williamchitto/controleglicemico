@@ -26,7 +26,7 @@
     "serialize-javascript": "^4.0.0",
     "tree-kill": "^1.2.2",
     "tslib": "^1.10.0",
-    "zone.js": "~0.11.6"
+    "zone.js": "~0.13.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^12.2.4",
