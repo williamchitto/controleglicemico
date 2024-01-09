@@ -23,7 +23,7 @@
     "@angular/router": "~8.2.14",
     "angular-cli-ghpages": "^0.6.0",
     "rxjs": "~6.6.7",
-    "serialize-javascript": "^4.0.0",
+    "serialize-javascript": "^6.0.2",
     "tree-kill": "^1.2.2",
     "tslib": "^1.10.0",
     "zone.js": "~0.11.6"
